@@ -1,0 +1,40 @@
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .profile-card {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+  }
+  
+  .profile-card h2 {
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .profile-card p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  .profile-card span{
+    color: red;
+    cursor: pointer;
+  }

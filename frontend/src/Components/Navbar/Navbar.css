@@ -1,0 +1,81 @@
+.main-nav {
+    height: 60px;
+    width: 100%;
+    /* background-color: grey; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    height: 100%;
+    flex-basis: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.nav-left img{
+    width: 80%;
+}
+.nav-middle {
+    height: 100%;
+    flex-basis: 35%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+    font-size: large;
+    position: relative;
+}
+
+/* .nav-middle a::after{
+    position: absolute;
+    content: "";
+    height: 5px;
+    width: ;
+    background-color: white;
+    left: 0;
+    bottom: 0;
+    transition: 0.6s;
+}
+
+.nav-middle a::after:hover{
+    width: 100%;
+} */
+.nav-right {
+    height: 100%;
+    flex-basis: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+    font-size: large;
+}
+
+.nav-right .nav-profile{
+    height: 80%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+
+.nav-profile-img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.profile-image{
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
